@@ -1,0 +1,35 @@
+.slix-debug-log-viewer {
+    background: #1d2327;
+    color: #f0f0f1;
+    padding: 10px;
+    border-radius: 3px;
+    max-height: 500px;
+    overflow-y: auto;
+    font-family: monospace;
+    white-space: pre-wrap;
+    margin-top: 15px;
+}
+
+.slix-debug-log-viewer pre {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.log-actions {
+    margin-bottom: 15px;
+}
+
+#copy-savolix-log-snippet {
+    background: #e1e1e2;
+    color: #fff; 
+    border: none; 
+    padding: 3px 8px; 
+    border-radius: 3px; 
+    cursor: pointer;
+    line-height: 8px;
+}
